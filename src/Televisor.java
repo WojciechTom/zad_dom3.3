@@ -8,7 +8,6 @@ public class Televisor {
     }
 
 
-
     void turnOn(){
     offOrOn = "ON";
     }
