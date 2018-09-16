@@ -8,5 +8,6 @@ public class Warehouse {
 
         String allDevices = device1.getInfo() + "\n" + device2.getInfo() + "\n" + device3.getInfo();
         System.out.println(allDevices);
+
     }
 }

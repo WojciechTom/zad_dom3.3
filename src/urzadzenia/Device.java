@@ -21,6 +21,4 @@ public class Device {
         return (" KOD: " + this.code + ", producent: " + this.producer + ", typ: " + this.typ + ", cena: " + this.price);
     }
 
-
-
 }
