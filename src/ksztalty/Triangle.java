@@ -12,4 +12,8 @@ public class Triangle {
         bokC = C;
         shape = "trójkąt";
     }
+
+    double trianglePerimeter(){
+        return this.bokA + this.bokB + this.bokC;
+    }
 }

@@ -12,6 +12,7 @@ public class Rectangle {
         shape = "prostokąt";
     }
 
-
-
+    double rectPerimeter(){
+        return (this.bokA + this.bokB ) * 2.0;
+    }
 }

@@ -1,4 +1,5 @@
 package ksztalty;
+import java.lang.Math;
 
 public class Square {
     String shape;
@@ -9,4 +10,7 @@ public class Square {
         shape = "kwadrat";
     }
 
+    double SquareArea (){
+        return Math.pow(this.bokA, 2);
+    }
 }

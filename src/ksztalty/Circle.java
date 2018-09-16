@@ -9,4 +9,7 @@ public class Circle {
         shape = "koło";
     }
 
+    double circleArea(){
+        return 3.14*Math.pow(this.promien, 2);
+    }
 }
